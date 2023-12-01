@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainStopSequence", "TrainStopSequence\TrainStopSequence.csproj", "{B566EC0D-AE5C-4534-A6C0-017DD5C4ABCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B566EC0D-AE5C-4534-A6C0-017DD5C4ABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B566EC0D-AE5C-4534-A6C0-017DD5C4ABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B566EC0D-AE5C-4534-A6C0-017DD5C4ABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B566EC0D-AE5C-4534-A6C0-017DD5C4ABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {379BCE2F-856A-4B87-A956-04A543AAF27E}
+	EndGlobalSection
+EndGlobal
