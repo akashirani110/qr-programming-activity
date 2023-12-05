@@ -1,0 +1,5 @@
+Central, True
+Roma St, False
+South Bank, True
+Chermside, False
+Buranda, True
