@@ -25,8 +25,11 @@
                 string description = stoppingSequence.StopSequenceDescriptionBuilder(stopSequence);
 
                 // Print the train stop sequence description
-                Console.WriteLine(description);
-                
+                Console.WriteLine("\n" + description);
+                Console.WriteLine("\n**********************************************");
+                Console.WriteLine("Thank you for travelling with Queensland Rail!");
+                Console.WriteLine("**********************************************");
+
             }
             catch (Exception ex)
             {
@@ -61,6 +64,14 @@
                 }
             }
             
+            List<Station> stoppingStations = stopSequence.Where(s => s.IsStopping).ToList();
+            Station lastStoppingStation = stoppingStations.Last();
+
+            if (stopSequence.Last() != lastStoppingStation)
+            {
+                stopSequence.RemoveAll(x => stopSequence.IndexOf(x) > stopSequence.IndexOf(lastStoppingStation));
+            }
+
             return stopSequence;
         }
     }
